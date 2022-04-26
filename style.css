@@ -1,0 +1,11 @@
+.container{   
+   text-align: center; 
+    width: 220px;
+    height: 200px;
+    /* overflow: scroll; */
+    margin: auto;
+}
+
+#h1{
+    text-align: center;
+}
