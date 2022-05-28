@@ -47,13 +47,7 @@ import '../App.css';
           <h3>5 Circles</h3>
           {circles.map((e) =>
             !visible.includes(e.id) ? (
-              <div
-                onClick={(el) => {
-                  toggleVisible([...visible, e.id]);
-                  console.log(visible);
-                }}
-                style={{ background: e.color }}
-                className="balls">
+              <div style={{ background: e.color }} className="balls">
                 {e.id}
               </div>
             ) : null,
