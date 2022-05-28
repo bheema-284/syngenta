@@ -27,6 +27,7 @@ import '../App.css';
           Shoot
         </button>
         <div className="box">
+          <h3>Empty Div</h3>
           {circles.map((e) =>
             visible.includes(e.id) ? (
               <div
@@ -43,6 +44,7 @@ import '../App.css';
           )}
         </div>
         <div className="box">
+          <h3>5 Circles</h3>
           {circles.map((e) =>
             !visible.includes(e.id) ? (
               <div
