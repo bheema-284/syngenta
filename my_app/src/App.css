@@ -54,3 +54,20 @@
   border-radius: 50%;
   margin-top: 5px;
 }
+
+.box {
+  min-width: 150px;
+  margin-top: 00px;
+  margin-left: 15%;
+  min-height: 300px;
+  float: left;
+  border: black 2px solid;
+}
+.balls {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+  border: 1.5px solid ;
+  margin: 30px;
+  text-align: center;  
+}
