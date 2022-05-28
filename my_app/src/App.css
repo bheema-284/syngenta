@@ -1,62 +1,15 @@
 .App {
   text-align: center;
 }
-.div{
-  display: flex;
-  gap: 50px;
-  width: 50%; 
-  
-  margin: auto;
-}
-.ediv{
-   width: 300px;
-  height: 300px;
-  border: 2px solid ;
-  margin-top: 150px; 
-}
-.one{
-  background-color: rgb(94, 197, 94);
-  border: 2px solid rgb(0, 106, 0);
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-top: 20px; 
-}
-.two{
-  background-color: rgb(236, 236, 102);
-  border: 2px solid rgb(183, 183, 32);
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-top: 5px;
-}
-.three{
-  background-color: rgb(107, 107, 229);
-  border: 2px solid blue;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-top: 5px;
-}
-.four{
-  background-color: rgb(162, 241, 241);
-  border: 2px solid rgb(31, 181, 181);
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-top: 5px;
-}
-.five{
-  background-color: rgb(244, 192, 244);
-  border: 2px solid rgb(150, 65, 150);
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-top: 5px;
-}
+
+
+
+/*Circles Style CSS */
+
+
 
 .box {
-  min-width: 150px;
+  min-width: 200px;
   margin-top: 00px;
   margin-left: 15%;
   min-height: 300px;
@@ -70,4 +23,20 @@
   border: 1.5px solid ;
   margin: 30px;
   text-align: center;  
+}
+
+/*Navbar Style CSS */
+
+
+.navbar{  
+  background-color: rgb(210, 153, 30);
+  color: white;
+  width: 100%;
+  height: 60px;
+  margin-top: 00px;
+  margin-bottom: 10px;
+  padding: 6px;
+}
+.h3{
+  text-align: center;
 }
