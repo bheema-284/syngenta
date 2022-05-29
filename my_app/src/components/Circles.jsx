@@ -37,8 +37,7 @@ import '../App.css';
                   toggleVisible(filter);
                 }}
                 style={{ background: e.color }}
-                className="balls">
-                {e.id}
+                className="balls">                
               </div>
             ) : null,
           )}
@@ -47,8 +46,7 @@ import '../App.css';
           <h3>5 Circles</h3>
           {circles.map((e) =>
             !visible.includes(e.id) ? (
-              <div style={{ background: e.color }} className="balls">
-                {e.id}
+              <div style={{ background: e.color }} className="balls">                
               </div>
             ) : null,
           )}
