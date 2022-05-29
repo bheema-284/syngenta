@@ -31,13 +31,14 @@ import '../App.css';
           {circles.map((e) =>
             visible.includes(e.id) ? (
               <div
+                key={e.id}
                 onClick={(el) => {
                   const filter = visible.filter((el) => el !== e.id);
                   console.log(filter);
                   toggleVisible(filter);
                 }}
                 style={{ background: e.color }}
-                className="balls">                
+                className="balls">               
               </div>
             ) : null,
           )}
@@ -46,7 +47,9 @@ import '../App.css';
           <h3>5 Circles</h3>
           {circles.map((e) =>
             !visible.includes(e.id) ? (
-              <div style={{ background: e.color }} className="balls">                
+              <div
+                  key={e.id}
+                  style={{ background: e.color }} className="balls">                
               </div>
             ) : null,
           )}
