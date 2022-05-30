@@ -11,7 +11,7 @@ I used React Js, CSS.
 # 3. Website snapshots:
 <img width="958" alt="syngenta" src="https://user-images.githubusercontent.com/96168073/170836538-9ffd5cdb-a53d-427a-b9a2-960775c9d00d.PNG">
 
-# 4. Quick Start
+# 4. Quick Start:
 1. Open a folder where you want to clone the repo
 2. Do git bash here
 3. Add command git clone https://github.com/bheema-284/sygenta.git
@@ -21,3 +21,6 @@ I used React Js, CSS.
 7. install npm packages
 8. Add command npm run dev
 9. View in browser(http://localhost:3000) you can able to see the features.
+
+# 4. Deployed Link:
+https://bheemas-syngenta-assignment.netlify.app/
