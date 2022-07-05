@@ -13,6 +13,7 @@ import '../App.css';
     return (
       <div>
         <input
+          placeholder = "Enter No 1 - 5"
           type="number"
           onChange={(e) => {
             setValue(e.target.value);
